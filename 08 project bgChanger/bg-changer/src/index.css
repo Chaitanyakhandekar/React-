@@ -1,0 +1,68 @@
+.bg-red{
+    background-color:red;
+    color:white;
+}
+.bg-green{
+    background-color:green;
+    color:white;
+}
+.bg-blue{
+    background-color:blue;
+    color:white;
+}
+.bg-olive{
+    background-color:olive;
+    color:white;
+}
+.bg-gray{
+    background-color:gray;
+    color:white;
+}
+.bg-yellow{
+    background-color:yellow;
+    color:black;
+}
+.bg-pink{
+    background-color:pink;
+    color:black;
+}
+.bg-purple{
+    background-color:purple;
+    color:white;
+}
+.bg-lavender{
+    background-color:lavender;
+    color:black;
+}
+.bg-white{
+    background-color:white;
+    color:black;
+}
+.bg-black{
+    background-color:black;
+    color:white;
+}
+button{
+    padding:5px 10px;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 0 22px -5px rgb(143, 143, 143);
+}
+.screen{
+    width:100vw;
+    height:100vh;
+}
+.panel{
+    width:50vw;
+    background-color: #fff;
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    bottom:10%;
+    left:30%;
+    padding:10px;
+    border-radius:15px;
+}
+.panel:hover{
+    cursor: pointer;
+}

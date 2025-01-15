@@ -1,0 +1,30 @@
+It’s a great example to show how you’re building the foundational mechanics behind React! In your LinkedIn post, sharing a bit of code like this can make your work shine and help people understand your technical skill level. Here's how you could structure it:
+
+---
+
+> 🌟 **Building My Own Custom React** 🌟
+>
+> I've been exploring how frameworks work by creating a custom version of React. With guidance from [Chai aur Code](https://youtu.be/kAOuj6o7Kxs?si=JzivaVFMiTkdlKZc), I crafted a simple renderer function that dynamically generates HTML elements. Here’s a sneak peek:
+>
+> ```javascript
+> function customRender(reactElement, container) {
+>     let element = document.createElement(reactElement.type);
+>     element.innerHTML = reactElement.children;
+>     for (const prop in reactElement.props) {
+>         element.setAttribute(prop, reactElement.props[prop]);
+>     }
+>     container.appendChild(element);
+> }
+> 
+> let reactElement = {
+>     type: 'a',
+>     props: { href: 'https://google.com', target: '_blank' },
+>     children: 'click to visit Google'
+> };
+> 
+> customRender(reactElement, document.querySelector('#root'));
+> ```
+>
+> This project taught me how properties, attributes, and child elements work together to create dynamic content, much like in real-world React! Looking forward to expanding on this knowledge and exploring more complex features.  
+> 
+> #ReactJS #JavaScript #WebDevelopment #LearningInPublic
